@@ -21,7 +21,7 @@ public class DepartmentTest {
 
     @Test
     public void testGetName() {
-        assertEquals("Test Department", department.getName());
+        assertEquals("name: Test Department", department.getName());
     }
 
     @Test
